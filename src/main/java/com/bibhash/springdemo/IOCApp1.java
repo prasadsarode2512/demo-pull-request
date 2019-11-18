@@ -18,6 +18,7 @@ public class IOCApp1 {
            
            //close the application context (container)										// add this comment
            ((FileSystemXmlApplicationContext) ctx).close();          						// add this line
+    	   System.out.println("END main() method");
     }
 
 }
